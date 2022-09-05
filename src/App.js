@@ -113,7 +113,10 @@ function App() {
 
   return (
     <div className="pomodoro">
-      <div className="bell"></div>
+      <div className="bell">
+        <div className="black-line"></div>
+        <div className="black-circle"></div>
+      </div>
       <h2 className="title">Custom Pomodoro Timer</h2>
       <div className="settings">
         <div className="break ">
