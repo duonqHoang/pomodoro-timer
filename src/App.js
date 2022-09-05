@@ -113,6 +113,7 @@ function App() {
 
   return (
     <div className="pomodoro">
+      <div className="bell"></div>
       <h2 className="title">Custom Pomodoro Timer</h2>
       <div className="settings">
         <div className="break ">
@@ -185,6 +186,8 @@ function App() {
         type="audio/mpeg"
         preload="auto"
       />
+      <div class="stand left"></div>
+      <div class="stand right"></div>
     </div>
   );
 }
